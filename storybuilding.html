@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<!--Franz Conrad von Hotzendorf was kind of an idiot-->
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="A website to help authors think about the worlds they're creating">
+		<meta name="keywords" content="writing, world building, fantasy">
+		<meta http-equiv="author" content="Jonathan Kuhl">
+
+		<title>Build Your World and Story</title>
+
+		<link rel="stylesheet" href="storybuilding.css">
+	</head>
+
+	<body>
+
+	<!--- Log In Splash Screen -->
+	<div class="login-screen" id="login-screen">
+		<div class="login-box">
+			<form>
+			<h1>Please Sign In: </h1>
+			<span id="close">X</span>
+			<label for="user_name"><p>User Name: </p></label>
+			<input type="text" name="username" id="user_name" required>
+			<label for="email"><p>Email: </p></label>
+			<input type="email" name="email" id="email" placeholder="johndoe@domain.com" required>
+			<label for="password"><p>Password: </p></label>
+			<input type="password" name="password" id="password" required>
+			<br><a href="#">Forgot Password?</a>
+			<br><button id="submit" class="button" type="submit">Submit</button>
+			</form>
+		</div>
+	</div>
+	<!--- End Splash Screen -->
+
+	<!--- Header -->
+	<header>
+		<h1>Build Your Story Here!</h1>
+		<ul class="login">
+			<li id="username"> </li>
+			<li id="login">Log In</li>
+		</ul>
+
+	</header>
+
+	<!--Navigation-->
+	<div class="sidebar">
+		<ul>
+			<li id="char-build-html">Character Building!</li>
+			<li>Monster Building!</li>
+			<li>World Building!</li>
+			<li>City Building!</li>
+			<li>Culture Building!</li>
+			<li>Magic Building!</li>
+		</ul>
+	</div>
+
+	<div class="spacer"></div>
+	<div class="container">
+		
+		<div class="primary">
+			<h1>Welcome to Storybuilder!</h1>
+			<p>Consistency is the key to any good story.  Authors such as myself pick the fantasy genre in part for its massive freedom.  A fantasy is after all, a world you can entirely make up.  But as counterintuitive as it sounds, every good story must be <span class="emphasis">realistic.</span><p>
+
+			<p>"Realism?"  You scoff.  "In a story about <span class="emphasis">dragons</span> and <span class="emphasis">magic?</span>"</p>
+
+			<p>Yes.  Realism.</p>
+			<p>Every world, real or imagined, has <span class="emphasis">rules.</span>  These rules are a part of the world and all the elements in that world, its characters, its monsters, its nations, are subject to those rules.  For example, if you declare that wizards cannot draw from their magic while they are wet, then you can't exactly have a big magic battle in a thunderstorm, now can you?</p>
+
+			<p>The great thing about fantasy is that you get to make up the rules.  They can be whatever you like.  But they have to follow an internal <span class="emphasis">consistency</span>, a logic.  This can get tricky as your story gets bigger, your character list gets longer, your bestiary is filled with more and more fantastic beasts.  Keeping consistency in your story is what gives any story, whether it is fantasy or not, an illusion of realism.  It is vital that you maintain this realism in order to maintain your reader's suspension of disbelief.</p>
+
+			<p>Storybuilder is a tool to help you with that and it's totally free.  All you need is a password and an email address and you can use the many tools available to help build your world.</p>
+
+		</div>
+	</div>
+	<footer>
+		<p>&copy; Jonathan Kuhl 2017</p>
+		<p><a href="http://www.projectbreakpoint.com/">Project Breakpoint</a></p>
+	</footer>
+
+	<script src="http://www.projectbreakpoint.com/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+	<script src="storybuilding.js"></script>
+	</body>
+</html>
